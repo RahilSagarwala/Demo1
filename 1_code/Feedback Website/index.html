@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pokémon Text Adventure</title>
+<meta charset="utf-8">
+<meta name= "viewport" content="widthpdive-width, initial-scale=1.0">
+<link rel="stylesheet" href="PokemonTextAdventure.css">
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="icon" type="image/x-icon" href="PTA_favicon.ico" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1><br><img class="fit" src="./PTA3 logo.png"><br></img><b>Feedback</b></h1><br>
+		</header>
+		<center>
+		<audio controls id="background_audio" autoplay="autoplay">
+  		<source src="./PTAmusic.mp3" /></audio> </center>
+
+		<div class="midsection">
+		
+		<section>
+			<article>
+			<div class="opening2"> 
+			<div id=opening> 
+			
+
+  <form action="action_page.php">
+    <br>
+    <label for="fname">Your Name</label>
+	<br>
+    <input type="text" id="name" name="name" placeholder="">
+	<br>
+	
+	
+
+  <label> Have you ever heard of Pokémon before playing this game?
+  <br>
+  <input id="q1yes" type="radio" value="1" name="question1">
+	<label for="q1yes">Yes</label>
+  <input id="q1no" type="radio" value="2" name="question1">
+	<label for="q1no">No</label>
+</label>
+	<br>
+	
+	<br>
+	<label> Have you ever played the first generation Pokémon games?
+		<br>
+  <input id="q2yes" type="radio" value="1" name="question2">
+	<label for="q2yes">Yes</label>
+  <input id="q2no" type="radio" value="2" name="question2">
+	<label for="q2no">No</label>
+     </label>
+	<br>
+	
+	<br>
+	<label> Have you ever played with the Gameboy Color?
+		<br>
+  <input id="q3yes" type="radio" value="1" name="question3">
+	<label for="q3yes">Yes</label>
+  <input id="q3no" type="radio" value="2" name="question3">
+	<label for="q3no">No</label>
+     </label>
+	<br>
+	
+	<br>
+	<label> Do you think more games should include multiple language support?
+		<br>
+  <input id="q4yes" type="radio" value="1" name="question4">
+	<label for="q4yes">Yes</label>
+  <input id="q4no" type="radio" value="2" name="question4">
+	<label for="q4no">No</label>
+     </label>
+	<br>
+	
+	<br>
+	<label for="subject">Why or why not?</label>
+	<br>
+    <textarea id="subject" name="subject" placeholder=""></textarea>
+
+	
+	<br><br> 
+	<label> Which operating system do you use?
+		<br>
+		<input type="checkbox" name="group" id="group1" value="1" title="Windows" />
+    <label for="group1">Windows</label>
+		
+		<input type="checkbox" name="group" id="group2" value="2" title="MacOS" />
+    <label for="group2">MacOS</label>
+		
+		<input type="checkbox" name="group" id="group3" value="2" title="iOS" />
+    <label for="group3">iOS</label>
+		
+		<input type="checkbox" name="group" id="group4" value="2" title="Android" />
+    <label for="group4">Android</label>
+	
+	<input type="checkbox" name="group" id="group5" value="2" title="Linux" />
+    <label for="group5">Lniux</label>
+		
+		
+		<br>
+			<span class="checkmark"></span>
+	</label>
+	<br>
+	
+	<br> 
+	<label> Which Pokémon generations do you prefer?
+		<br>
+		<input type="checkbox" name="group6" id="group6" value="2" title="1st" />
+    <label for="group6">1st</label>
+		
+		<input type="checkbox" name="group7" id="group7" value="2" title="2nd" />
+    <label for="group7">2nd</label>
+		
+		<input type="checkbox" name="group8" id="group8" value="2" title="3rd" />
+    <label for="group8">3rd</label>
+		
+		<input type="checkbox" name="group9" id="group9" value="2" title="4th" />
+    <label for="group9">4th</label>
+	
+		<input type="checkbox" name="group10" id="group10" value="2" title="5th" />
+    <label for="group10">5th</label>
+	
+	<input type="checkbox" name="group11" id="group11" value="2" title="6th" />
+    <label for="group11">6th</label>
+	
+	<input type="checkbox" name="group12" id="group12" value="2" title="7th" />
+    <label for="group12">7th</label>
+		<br>
+			<span class="checkmark"></span>
+	</label>
+	<br>
+	
+
+	
+	<br>
+    <label for="nativelanguage">What is your native language?</label>
+	<br>
+    <select id="nativelanguage" name="country">
+	  <option value="">Choose from the following</option>
+      <option value="english">English</option>
+      <option value="japanese">Japanese</option>
+	  <option value="spanish">Spanish</option>
+	  <option value="portuguese">Portuguese</option>
+      <option value="french">French</option>
+	  <option value="german">German</option>
+      <option value="italian">Italian</option>
+      <option value="arabic">Arabic</option>
+	  <option value="urdu">Urdu</option>
+      <option value="hindi">Hindi</option>
+      <option value="other">Other</option>
+    </select>
+	<br><br>
+	
+	<label> Did you have fun while playing the game?
+		<br>
+  <input id="q5yes" type="radio" value="1" name="question5">
+	<label for="q5yes">Yes</label>
+  <input id="q5no" type="radio" value="2" name="question5">
+	<label for="q5no">No</label>
+     </label>
+	<br>
+	
+	<label> Was the game easy to understand?
+		<br>
+  <input id="q6yes" type="radio" value="1" name="question6">
+	<label for="q6yes">Yes</label>
+  <input id="q6no" type="radio" value="2" name="question6">
+	<label for="q6no">No</label>
+     </label>
+	<br>
+	
+		<br>
+	<label for="subject">What sort of issues did you have with the game? <br>Which aspects did you like or dislike and why?</label>
+	<br>
+    <textarea id="subject" name="subject" placeholder=""></textarea>
+	<br>
+	
+	<br>
+	</form>
+	
+	<form action="submit.html">
+    <input type="submit" value="Submit" />
+</form>
+
+
+
+
+			
+			<br>
+			<br>
+			<br>
+			</div>
+			</div>
+			</article>
+		</section>
+	
+		
+		
+
+		<footer>
+			
+		</footer>
+	<div>
+</body>
+</html>
